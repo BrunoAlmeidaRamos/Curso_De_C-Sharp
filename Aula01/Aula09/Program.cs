@@ -12,10 +12,10 @@ public class Program()
         Console.WriteLine("Informe seu nome:");
         string nome = Console.ReadLine();
 
-        Console.WriteLine("Informe seu Email:\n");
+        Console.WriteLine("Informe seu Email:");
         string email = Console.ReadLine();
 
-        Console.WriteLine("Escolha uma senha:\n");
+        Console.WriteLine("Escolha uma senha:");
         int senha = Convert.ToInt32(Console.ReadLine());
 
         if (registro == email && registroSenha == senha)
@@ -25,5 +25,7 @@ public class Program()
         {
             Console.WriteLine("Dados inválidos, tente novamente!");
         }
+
+        
     }
 }
