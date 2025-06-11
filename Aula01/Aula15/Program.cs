@@ -35,6 +35,6 @@ public class  Program
 
         Console.WriteLine(linha);
 
-        Console.WriteLine($"Total de Platinas da saga God of War: {platinas.Count}\n");
+        Console.WriteLine($"Total de Platinas da saga God of War: {platinas.Count}");
     }
 }
