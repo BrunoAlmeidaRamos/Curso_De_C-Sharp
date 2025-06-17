@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Aula18
 {
-    internal class car
+    public class Car
     {
+        public string Name;
+        public string Model;
+        public string Color;
+        public int Year;
+        public decimal value;
     }
 }
+    
